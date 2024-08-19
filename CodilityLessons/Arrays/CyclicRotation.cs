@@ -5,7 +5,8 @@
         public static int[] solution(int[] A, int K)
         {
             // Implement your solution here
-            if (A == null)
+            //check if array is empty
+            if (A.Length == 0)
             {
                 return A;
             }

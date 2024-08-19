@@ -12,7 +12,7 @@ namespace CodilityLessonsTest.Arrays
         [Test]
         public void EmptyTest()
         {
-            Assert.That(SolutionClass.solution(new int[] { }, 3), Is.EqualTo(new int[] { }));
+            Assert.That(SolutionClass.solution(new int[] {}, 3), Is.EqualTo(new int[] {}));
         }
     }
 }
